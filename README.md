@@ -5,9 +5,18 @@ Glucose transporters enable the passive transport of glucose across cell membran
 In the present study we devised a method that utilized evolutionary information from Position-Specific Scoring matrics (PSSM) as the primary features and fed these features to multiple-scanning windows-based covolutional neural networks to derive valuable insight from the evolutionary profiles to effectively classify glucose transporters into three distinct families.
 ![alt text](Glucose-transport.png)
 ## Dataset
-| Families  | Primary Data | Data with identity < 40% |train | test |
+| Classes  | Primary Data | Data with identity < 40% |train | test |
 | ------------- | ------------- |------------- |------------- |------------- |
 | GLUTs  | 9616  | 510 | 408 | 102|
 | SGLTs  | 4107  | 225 | 180 | 45|
 | SWEETs  | 2026  | 190 | 152 | 38|
 | **Total**  | **15749** | **925** |**740** | **185** |
+
+## Results
+###Performance of mCNN-Glucose on the three glucose tranport proteins using an independent test set
+| Classes  | Sensitivity | Specificity | Accuracy | MCC |
+| ------------- | ------------- |------------- |------------- |------------- |
+| GLUTs  | 99.02%   | 100.00%  | 99.46% | 0.99 |
+| SGLTs  | 97.78%  | 100.00%  | 99.46% | 0.99 |
+| SWEETs  | 100.00%  | 96.60% | 97.30%  | 0.92 |
+
