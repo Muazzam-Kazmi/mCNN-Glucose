@@ -14,7 +14,6 @@ In the present study we devised a method that utilized evolutionary information 
 | **Total**  | **15749** | **925** |**740** | **185** |
 
 ## Quick Start
-
 ### Step 1: Generate Data Features
 Organize your PSSM files in directories such as train/ and test/ under a specific path. For example:
 
@@ -33,7 +32,7 @@ Open PSSM_Feature_Generator.py and update the following paths to point to your d
 ```bash
 "Run the Script" python PSSM_Feature_Generator.py
 ```
-The generated features will be saved in CSV files in the specified output directory. For example:
+The generated features will be saved in CSV files in the specified output directory:
 <pre><code>
 output/
 ├── train_features.csv
