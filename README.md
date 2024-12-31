@@ -45,7 +45,7 @@ output/
 
 2. **Run the Model:**
    - Open the `Final_Model_mCNN_pssm_flatten_class1_class2_class3_Glucose_Transporters[15_09_2024].ipynb` file in Google Colab or in Jupyter Notebook
-   - Execute the cells in the notebook to run the model and make predictions based on your dataset.
+   - Execute the cells in the notebook to run the model, make predictions, and obtain results based on your dataset.
 
 ## Results
 **Table 2:** Performance of mCNN-Glucose on the three glucose tranport proteins using an independent test set
