@@ -32,7 +32,7 @@ dataset/
 **Example usage:**
 Open PSSM_Feature_Generator.py and update the following paths to point to your data directory:
 ```bash
-"Run the Script" python PSSM_Feature_Generator.py
+4.  "Run the Script" python PSSM_Feature_Generator.py
 ```
 The generated features will be saved in CSV files in the specified output directory:
 <pre><code>
