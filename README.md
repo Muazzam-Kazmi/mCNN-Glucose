@@ -34,7 +34,7 @@ Open PSSM_Feature_Generator.py and update the following paths to point to your d
 ```bash
 4.  "Run the Script" python PSSM_Feature_Generator.py
 ```
-The generated features will be saved in CSV files in the specified output directory:
+5.  The generated features will be saved in CSV files in the specified output directory:
 <pre><code>
 output/
 ├── train_features.csv
