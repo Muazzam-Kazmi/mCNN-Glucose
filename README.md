@@ -18,13 +18,13 @@ In the present study we devised a method that utilized evolutionary information 
 ### Step 1: Generate Data Features
 Organize your PSSM files in directories such as train/ and test/ under a specific path. For example:
 
-dataset/
-├── train/
-│   ├── file1.pssm
-│   ├── file2.pssm
-└── test/
-    ├── file3.pssm
-    ├── file4.pssm
+``` dataset/ ``` 
+``` ├── train/ ```
+``` │   ├── file1.pssm ``` 
+``` │   ├── file2.pssm ``` 
+``` └── test/``` 
+   ``` ├── file3.pssm ```
+    ``` ├── file4.pssm ```
 **Example usage:**
 Open PSSM_Feature_Generator.py and update the following paths to point to your data directory:
 ```bash
