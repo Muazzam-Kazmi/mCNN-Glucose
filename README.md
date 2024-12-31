@@ -41,7 +41,7 @@ output/
 </code></pre>  
 ### Step 2: Execute Prediction
 1. **Navigate to the code folder to load the data:**
-   - Change your directory paths to the `code` folder where the features are located.
+   - If you're using Google Colab, mount your Google Drive and change the directory paths to the code folder where the features are located. If you're running locally, simply update the data path in your Jupyter Notebook to point to the correct location..
 
 2. **Run the Model:**
    - Open the `Final_Model_mCNN_pssm_flatten_class1_class2_class3_Glucose_Transporters[15_09_2024].ipynb` file in Google Colab or in Jupyter Notebook
