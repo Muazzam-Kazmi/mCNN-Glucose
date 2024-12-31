@@ -29,10 +29,9 @@ dataset/
     ├── file4.pssm
 </code></pre>
 
-**Example usage:**
-Open PSSM_Feature_Generator.py and update the following paths to point to your data directory:
+4. Open PSSM_Feature_Generator.py and update the following paths to point to your data directory:
 ```bash
-4.  "Run the Script" python PSSM_Feature_Generator.py
+ "Run the Script" python PSSM_Feature_Generator.py
 ```
 5.  The generated features will be saved in CSV files in the specified output directory:
 <pre><code>
