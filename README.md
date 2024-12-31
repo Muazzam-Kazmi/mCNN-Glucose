@@ -15,8 +15,10 @@ In the present study we devised a method that utilized evolutionary information 
 
 ## Quick Start
 ### Step 1: Generate Data Features
-Organize your PSSM files in directories such as train/ and test/ under a specific path. For example:
-
+1. **Start with FASTA Files: Begin with protein sequences in FASTA format:**
+2. **Generate PSSM Files: Use a tool such as PSI-BLAST to process the FASTA files and produce corresponding PSSM files:**
+3.  **Organize PSSM Files: Organize your PSSM files in directories such as train/ and test/ under a specific path:**
+**For example**
 <pre><code>
 dataset/
 ├── train/
