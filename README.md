@@ -25,6 +25,7 @@ Organize your PSSM files in directories such as train/ and test/ under a specifi
 ``` └── test/``` 
    ``` ├── file3.pssm ```
     ``` ├── file4.pssm ```
+    
 **Example usage:**
 Open PSSM_Feature_Generator.py and update the following paths to point to your data directory:
 ```bash
