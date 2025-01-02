@@ -4,6 +4,8 @@ Glucose transporters enable the passive transport of glucose across cell membran
 ## Methodology
 In the present study we devised a method that utilized evolutionary information from Position-Specific Scoring matrics (PSSM) as the primary features and fed these features to multiple-scanning windows-based covolutional neural networks to derive valuable insight from the evolutionary profiles to effectively classify glucose transporters into three distinct families.
 ![alt text](Glucose-transport.png)
+## Proposed Architecture
+![alt text](mCNN-Glucose-Block-Diagram.png)
 ## Dataset
 **Table 1:** Dataset used in the present study
 | Classes  | Primary Data | Data with identity < 40% |train | test |
